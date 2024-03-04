@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/randevual.css">
+    <script src="/js/randevual.js"></script>
+    <title>Randevu Al</title>
+</head>
+<body>
+    <h2>RANDEVUNUZU HIZLICA ALIN</h2>
+    <form id="appointmentForm">
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-posta adresiniz:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="date">Randevu Tarihi:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Randevu Saati:</label>
+        <input type="time" id="time" name="time" required>  
+        <button type="button" onclick="submitForm()">Randevu Al</button>
+</body>
+</html>

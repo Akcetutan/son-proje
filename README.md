@@ -1,1 +1,3 @@
-# son-proje
+# Kariyer akademi son proje
+
+### Tamamlanmış halidir.
